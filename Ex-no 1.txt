@@ -1,0 +1,136 @@
+Ex.No.1
+DOWNLOAD, INSTALL AND EXPLORE THE FEATURES OF NUMPY, SCIPY, JUPYTER, STATSMODELS AND PANDAS PACKAGES
+
+
+1a. Aim:
+	To download, install and explore the features of NumPy package.
+Problem Description	
+Python is an open-source object-oriented language. It has many features of which one is the wide range of external packages. There are a lot of packages for installation and use for expanding functionalities. These packages are a repository of functions in python script. NumPy is one such package to ease array computations. To install all these python packages we use the pip- package installer. Pip is automatically installed along with Python. We can then use pip in the command line to install packages from PyPI.
+NumPy
+NumPy (Numerical Python) is an open-source library for the Python programming language. It is used for scientific computing and working with arrays.
+Apart from its multidimensional array object, it also provides high-level functioning tools for working with arrays.
+Prerequisites
+Access to a terminal window/command line
+A user account with sudo privileges
+Python installed on your system
+Downloading and installing Numpy: 
+Python NumPy is a general-purpose array processing package that provides tools for handling n-dimensional arrays. It provides various computing tools such as comprehensive mathematical functions, linear algebra routines.Use the below command to install NumPy: 
+
+pip install numpy 
+
+output: 
+
+
+
+1 b. Aim : To download, install and explore the features of Jupyter  packages. 
+
+
+Data Science: 
+Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning with specific subject matter expertise to uncover actionable insights hidden in an organization’s data. 
+
+Jupyter: 
+Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. Uses include data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more. 
+Jupyter has support for over 40 different programming languages and Python is one of them. Python is a requirement (Python 3.3 or greater, or Python 2.7) for installing the Jupyter Notebook itself.
+
+ Procedure: 
+
+	PIP is a package management system used to install and manage software packages/libraries written in Python. These files are stored in a large “on-line repository” termed as Python Package Index (PyPI).
+pip uses PyPI as the default source for packages and their dependencies.
+
+Installing Jupyter Notebook using pip:
+		To install Jupyter using pip, we need to first check if pip is updated in our system. Use the following command to update pip:
+
+			python -m pip install --upgrade pip
+
+
+
+After updating the pip version, follow the instructions provided below to install Jupyter:
+
+Command to install Jupyter:
+				
+			python -m pip install jupyter
+
+ 
+
+
+∙ Finished Installation: 
+
+	Use the following command to launch Jupyter using command-line:
+
+		jupyter notebook
+
+
+Launching Jupyter Notebook
+
+
+Click New  and select python 3(ipykernal) and type the following program. Click run to execute the program.
+
+
+1 c Aim: 
+	To download, install and explore the features of Scipy package.
+Problem Description
+	Scipy is a python library that is useful in solving many mathematical equations and algorithms. It is designed on the top of Numpy library that gives more extension of finding scientific mathematical formulae like Matrix Rank, Inverse, polynomial equations, LU Decomposition, etc. Using its high-level functions will significantly reduce the complexity of the code and helps in better analyzing the data.
+Downloading and Installing Scipy:
+	pip use the below command to install Scipy package on Windows: 
+pip install scipy
+output
+
+1 d. Aim :
+ To download, install and explore the features of Panda  packages. 
+
+Problem Description
+		
+			Pandas is one of the most popular open-source frameworks available for Python. It is among the fastest and most easy-to-use libraries for data analysis and manipulation. Pandas dataframes are some of the most useful data structures available in any library. It has uses in every data-intensive field, including but not limited to scientific computing, data science, and machine learning.
+The library does not come included with a regular install of Python. To use it, you must install the Pandas framework separately.
+Installing Pandas on Windows
+There are two ways of installing Pandas on Windows. 
+Method #1: Installing with pip
+It is a package installation manager that makes installing Python libraries and frameworks straightforward.
+As long as you have a newer version of Python installed (> Python 3.4), pip will be installed on your computer along with Python by default. 
+However, if you’re using an older version of Python, you will need to install pip on your computer before installing Pandas. 
+Step #1: Launch Command Prompt
+Press the Windows key on your keyboard or click on the Start button to open the start menu. Type cmd, and the Command Prompt app should appear as a listing in the start menu.
+Step #2: Enter the Required Command
+After you launch the command prompt, the next step in the process is to type in the required command to initialize pip installation.
+Enter the command 
+                             pip install pandas
+ on the terminal. This should launch the pip installer. The required files will be downloaded, and Pandas will be ready to run on your computer.
+		
+
+Panda package is successfully installed.
+
+
+
+
+
+
+
+1e. Aim:
+	To download, install and explore the features of Statsmodals package.
+Problem Description:
+			Statsmodels is a popular library in Python that enables us to estimate and analyze various statistical models. It is built on numeric and scientific libraries like NumPy and SciPy.
+Some of the essential features of this package are-
+It includes various models of linear regression like ordinary least squares, generalized least squares, weighted least squares, etc.
+It provides some efficient functions for time series analysis.
+It also has some datasets for examples and testing.
+Models based on survival analysis are also available.
+All the statistical tests that we can imagine for data on a large scale are present.
+Installing Statsmodels 
+	Check the version of python installed in the PC.
+Using Command Prompt
+Type 'Command Prompt' on the taskbar's search pane and you'll see its icon. Click on it to open the command prompt.
+Also, you can directly click on its icon if it is pinned on the taskbar.
+Once the 'Command Prompt' screen is visible on your screen.
+Type python -version and click on 'Enter'.
+The version installed in your system would be displayed in the next line.
+
+Installation of statsmodels
+Now for installing statsmodels in our system, Open the Command Prompt, type the following command and click on 'Enter'.
+pip install statsmodels  
+Output
+
+It's time to look have a program in which we will import statsmodels-
+Here, we will perform OLS(Ordinary Least Squares) regression, in this technique we will try to minimize the net sum of squares of difference between the calculated value and observed value.
+
+
+
