@@ -20,5 +20,4 @@ y, X = dmatrices('Literacy ~ Lottery + Wealth + Region', data=df, return_type='d
 # Fit linear regression model
 model = sm.OLS(y, X).fit()
 
-# Print model summary
-print(model.summary())
+
