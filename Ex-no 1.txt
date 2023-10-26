@@ -1,7 +1,7 @@
 Ex.No.1
 DOWNLOAD, INSTALL AND EXPLORE THE FEATURES OF NUMPY, SCIPY, JUPYTER, STATSMODELS AND PANDAS PACKAGES
 
-
+//edited by authava
 1a. Aim:
 	To download, install and explore the features of NumPy package.
 Problem Description	
